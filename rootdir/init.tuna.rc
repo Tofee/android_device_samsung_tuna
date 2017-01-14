@@ -91,7 +91,7 @@ on fs
     chown media media /dev/i2c-2
 
     # pvr module
-    insmod /system/lib/modules/pvrsrvkm_sgx540_120.ko
+    insmod /hal-hybris/system/lib/modules/pvrsrvkm_sgx540_120.ko
     start pvrsrvinit
 
     # change permissions for Tiler driver
